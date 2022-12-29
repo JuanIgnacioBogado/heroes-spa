@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,6 +24,7 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "babel-jest": "^29.3.1",
+    "gh-pages": "^4.0.0",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
     "vite": "^4.0.0"
